@@ -1,54 +1,24 @@
-# React + TypeScript + Vite
+# Personal Pomodoro Timer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This will officially be my first project. Why a Pomodoro Timer? I found it to be a very interesting method for working and staying focused. I've seen it used everywhere and knew I needed to try it for myself. The problem is that every website I visited had a horrible UI and was too slow. Some even required a login — who wants to sign in? I'm pretty sure I could have found one among a million Pomodoro timer websites, but creating one myself seems much more reasonable. And so, here we are. Hopefully, by deploying this project for the first time and using it, I will gain the confidence to tackle other interesting and increasingly challenging projects.
 
-Currently, two official plugins are available:
+# Requirements
+- One-page, minimalistic application that fully occupies the viewport.
+- Three session buttons:
+  - **Pomodoro:** 50 minutes
+  - **Short Break:** 10 minutes
+  - **Long Break:** 30 minutes
+- A timer centered on the page that shows the current session.
+- A start/pause button that alternates with a reset button.
+- An indicator displaying the current session (e.g., "Session 1 of 4").
+- Each work session lasts 50 minutes, followed by a short break. After the fourth session, a long break.
+- Session history that tracks and displays completed sessions.
+- A settings icon in the top corner opens a modal to edit timer settings.
+- A GitHub icon next to the settings icon directs users to the source code.
+- Notifications when a session ends.
+- Mobile responsiveness and keyboard navigation for all major functions.
+- Dark/Light mode options - cus why not
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- React, TypeScript, Deno, Tailwind, Zustand (to learn it), Deno Deploy with GitHub Actions myb, 
