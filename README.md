@@ -21,4 +21,29 @@ This will officially be my first project. Why a Pomodoro Timer? I found it to be
 
 # Tech Stack
 
-- React, TypeScript, Deno, Tailwind, Zustand (to learn it), Deno Deploy with GitHub Actions myb, 
+- React Deno Vite TypeScript Tailwind Zustand
+
+# Tasks
+
+- Add Tailwind CSS and Zustand  
+- Create a one-page, full-viewport layout  
+- Configure color themes with Tailwind, including dark/light mode support  
+- Implement a dark/light mode toggle  
+- Add responsive styles for both mobile and desktop views  
+- Set up the Zustand store for global state management  
+- Implement Pomodoro cycle logic with default session settings  
+- Persist session settings and history using Zustand  
+- Create a Timer component with countdown functionality  
+- Add start, pause, and reset logic with corresponding control buttons  
+- Create a session indicator component (e.g., “Session 1 of 4”)  
+- Build a modal for updating settings (e.g., custom session durations)  
+- Implement Zustand logic to handle updates to timer settings  
+- Add a GitHub icon linking to the project’s repository  
+- Add trigger for notifications when a session ends
+- Add Audio alerts for session end 
+- Enable keyboard navigation for all major actions  
+
+# Other Tasks 
+
+- Skip button to manually end a session early
+- Productivity stats/dashboard
