@@ -15,7 +15,8 @@
     "npm:tailwindcss@^4.0.15": "4.0.15",
     "npm:typescript-eslint@^8.24.1": "8.26.1_eslint@9.22.0_typescript@5.7.3_@typescript-eslint+parser@8.26.1__eslint@9.22.0__typescript@5.7.3",
     "npm:typescript@~5.7.2": "5.7.3",
-    "npm:vite@^6.2.0": "6.2.2"
+    "npm:vite@^6.2.0": "6.2.2",
+    "npm:zustand@^5.0.3": "5.0.3_@types+react@19.0.11_react@19.0.0"
   },
   "npm": {
     "@ampproject/remapping@2.3.0": {
@@ -1333,6 +1334,13 @@
     },
     "yocto-queue@0.1.0": {
       "integrity": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
+    },
+    "zustand@5.0.3_@types+react@19.0.11_react@19.0.0": {
+      "integrity": "sha512-14fwWQtU3pH4dE0dOpdMiWjddcH+QzKIgk1cl8epwSE7yag43k/AD/m4L6+K7DytAOr9gGBe3/EXj9g7cdostg==",
+      "dependencies": [
+        "@types/react",
+        "react"
+      ]
     }
   },
   "workspace": {
@@ -1352,7 +1360,8 @@
         "npm:tailwindcss@^4.0.15",
         "npm:typescript-eslint@^8.24.1",
         "npm:typescript@~5.7.2",
-        "npm:vite@^6.2.0"
+        "npm:vite@^6.2.0",
+        "npm:zustand@^5.0.3"
       ]
     }
   }
