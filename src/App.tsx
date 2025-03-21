@@ -7,11 +7,13 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        {count}
-      </h1>
-      <button onClick={increment}>increment</button>
-      <button onClick={decrement}>decrement</button>
+      <div className="content">
+        <h1 className="text-3xl font-bold underline text-red-500">
+          {count}
+        </h1>
+        <button onClick={increment}>increment</button>
+        <button onClick={decrement}>decrement</button>
+      </div>
     </>
   )
 }
