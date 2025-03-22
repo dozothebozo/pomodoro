@@ -21,7 +21,7 @@ This will officially be my first project. Why a Pomodoro Timer? I found it to be
 
 # Tech Stack
 
-- React Deno Vite TypeScript Tailwind Zustand
+- React Bun Vite TypeScript Tailwind Zustand
 
 # Tasks
 
