@@ -25,8 +25,8 @@ This will officially be my first project. Why a Pomodoro Timer? I found it to be
 
 # Tasks
 
-- Add Tailwind CSS and Zustand  
-- Create a one-page, full-viewport layout  
+- Add Tailwind CSS and Zustand  x
+- Create a one-page, full-viewport layout  x
 - Configure color themes with Tailwind, including dark/light mode support  
 - Implement a dark/light mode toggle  
 - Add responsive styles for both mobile and desktop views  
